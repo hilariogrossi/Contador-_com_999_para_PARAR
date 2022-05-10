@@ -1,0 +1,8 @@
+numero = contador = soma = 0
+numero = int(input('Digite qualquer número e [999 para PARAR]: '))
+
+while numero != 999:
+    soma += numero
+    contador += 1
+    numero = int(input('Digite qualquer número e [999 para PARAR]: '))
+print('A quantidade de números digitados é {} e a soma dos mesmo é {}.'.format(contador, soma))
